@@ -1,16 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
-    background-color: #112233;
+    background-color: #212226;
     width: 100%;
     margin: 0;
     padding: 0;
     font-family: "Kaisei Tokumin", serif;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
-.container {
-    padding-top: 30px;
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sideContainer {
+    position: relative;
+    top: 15dvh;
+    left: 10dvw;
+    width: 40dvw;
 }
 
 .page-header {
@@ -22,17 +33,124 @@ body {
 }
 
 .name {
-    position: fixed;
-    top: 1vh;
-    left: 1vw;
-    width: 30dvw;
+    position: absolute;
+    top: -1dvh;
+    left: -6dvh;
+    height: 10dvh;
 
 }
 
 #nav-bar {
     position: relative;
-    top: 3vh;
-    left: calc(1vw + 30dvw);
-    height: 70px;
-    border: 2px solid red;
+    top: 1dvh;
+    left: 1dvw;
+}
+
+.menu-item {
+    position: relative;
+    list-style: none;
+    list-style-image: none;
+}
+
+.menu-item2 {
+    padding-top: 2.5dvh;
+    padding-left: 1dvw;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    list-style-image: none;
+    left: 35dvh;
+    font-size: 2dvh;
+    top: dvh;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite;
+}
+
+.bgImg1 {
+    position: absolute;
+    top: 0;
+    left: 70dvw;
+    width: 100dvw;
+}
+
+.bgImg2 {
+    position: absolute;
+    top: 20dvh;
+    left: 60dvw;
+    height: 35dvw;
+    box-shadow: 5px 5px 30px #2d2420c6;
+}
+
+.bgImg3 {
+    position: absolute;
+    top: 80dvw;
+    left: 0;
+    width: 100%;
+    height: 200dvh;
+    background: white;
+    border: 3 px solid salmon;
+}
+
+.contentHeader {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 183, 96);
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.normalTextLight {
+    font-family: "Lato", sans-serif;
+    font-weight: 375;
+    font-style: normal;
+    color: antiquewhite;
+    font-size: 1.25dvw;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.normalTextDark {
+    font-family: "Lato", sans-serif;
+    font-weight: 375;
+    font-style: normal;
+    color: rgb(40, 37, 34);
+    font-size: 1.25dvw;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.smallTextDark {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(40, 37, 34);
+    font-size: 1dvw;
+    letter-spacing: .5px;
+}
+
+.miniHeader {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(182, 255, 183);
+    font-size: 1.25dvw;
+    letter-spacing: .5px;
+}
+
+a {
+    all: unset;
+    position: relative;
+}
+
+.button {
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    display: block;
+    margin: 15px;
+    margin-top: 40px;
 }
