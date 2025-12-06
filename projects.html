@@ -8,74 +8,108 @@
 </head>
 
 <body>
-    <!-- Background (different look for projects page) -->
-    <img src="graphics/texture.png" class="bgImg1 projects-bg" alt="background texture">
-    <div class="projectsOverlay"></div>
+    <div id="pgContain">
+        <!-- Background (different look for projects page) -->
+        <img src="graphics/texture.png" class="bgImg1 projects-bg" alt="background texture">
+        <div class="projectsOverlay"></div>
 
-    <!-- MENU NAVIGATION (same as index) -->
-    <nav id="nav-bar">
-        <ul id="menu">
-            <li class="menu-item">
-                <a href="index.html" class="mi">
-                    <img src="graphics/name1.gif" class="name" alt="Nicole Spaulding" />
-                    <img src="graphics/name1.png" class="name" alt="Glow effect" />
-                </a>
-            </li>
-            <li class="menu-item2">
-                <a href="projects.html" class="mi colorHover">PROJECTS</a>
-            </li>
-            <li class="menu-item2">
+        <!-- MENU NAVIGATION (same as index) -->
+        <nav id="nav-bar">
+            <ul id="menu">
+                <li class="menu-item">
+                    <a href="index.html" class="mi">
+                        <img src="graphics/name1.gif" class="name" alt="Nicole Spaulding" />
+                        <img src="graphics/name1.png" class="name" alt="Glow effect" />
+                    </a>
+                </li>
+                <li class="menu-item2">
+                    <a href="projects.html" class="mi colorHover">PROJECTS</a>
+                </li>
+                <!--<li class="menu-item2">
                 <a href="about.html" class="mi colorHover">ABOUT</a>
-            </li>
-            <li class="menu-item2">
-                <a href="resume.html" class="mi colorHover">RESUME</a>
-            </li>
-            <li class="menu-item2">
-                <a href="contact.html" class="mi colorHover">CONTACT</a>
-            </li>
-        </ul>
-    </nav>
+            </li>-->
+                <li class="menu-item2">
+                    <a href="resume.html" class="mi colorHover">RESUME</a>
+                </li>
+                <li class="menu-item2">
+                    <a href="contact.html" class="mi colorHover">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
 
-    <!-- PROJECTS CONTENT -->
-    <div class="projectsContainer">
-        <h1 class="projectsHeader">My Projects</h1>
-        <em class="projectsSub">A selection of things I’ve built — from classwork to personal experiments.</em>
+        <!-- PROJECTS CONTENT -->
+        <div class="projectsContainer">
+            <h1 class="projectsHeader lato">My Projects</h1>
+            <em class="projectsSub normalTextLight">Fun things I’ve built/worked on!</em>
 
-        <ul class="projectsGrid">
-            <li class="projectCard">
-                <img src="graphics/project1.png" class="projectImg" alt="Project One" />
-                <div class="projectInfo">
-                    <h2 class="projectTitle">Project One</h2>
-                    <p class="projectDesc">A short description of project one. Explain what it does, what tech you used,
-                        or something you learned.</p>
-                </div>
-            </li>
+            <ul class="projectsGrid">
+                <li class="projectCard">
+                    <img src="graphics/Project1.png" class="projectImg" alt="Project One" />
+                    <div class="projectInfo">
+                        <h2 class="projectTitle miniHeader">Visualizing Epidemiological Rift-valley Analytics (VERA) -
+                            Fall
+                            2025</h2>
+                        <p class="projectDesc ">Collaborated with a team of four and a NASA domain expert to
+                            develop VERA, creating the website’s template UI foundation
+                            and implementing back-end query logic powering an interactive map & hover information
+                            display
+                            system for ~30 years of
+                            NASA RVF case data for Africa, Saudi Arabia, and Yemen.</p>
+                    </div>
+                </li>
 
-            <li class="projectCard">
-                <img src="graphics/project2.png" class="projectImg" alt="Project Two" />
-                <div class="projectInfo">
-                    <h2 class="projectTitle">Project Two</h2>
-                    <p class="projectDesc">Another project with a description. Could include links to GitHub or a demo.
-                    </p>
-                </div>
-            </li>
+                <li class="projectCard">
+                    <img src="graphics/Project2.png" class="projectImg" alt="Project Two" />
+                    <div class="projectInfo">
+                        <h2 class="projectTitle miniHeader">Digits Data Classification Algorithms - Fall 2025 </h2>
+                        <p class="projectDesc "> Built an end-to-end digit-classification suite entirely from
+                            scratch—implementing 2D-Perceptron, Linear Regression,
+                            high-order Legendre models, k-NN with CV, RBF networks, neural networks, and SVMs using only
+                            NumPy and core Python.
+                        </p>
+                    </div>
+                </li>
 
-            <li class="projectCard">
-                <img src="graphics/project3.png" class="projectImg" alt="Project Three" />
-                <div class="projectInfo">
-                    <h2 class="projectTitle">Project Three</h2>
-                    <p class="projectDesc">Longer-term work or research with more context and detail.</p>
-                </div>
-            </li>
+                <li class="projectCard">
+                    <img src="graphics/Project3.png" class="projectImg" alt="Project Three" />
+                    <div class="projectInfo">
+                        <h2 class="projectTitle miniHeader">Board Solver - Fall 2024</h2>
+                        <p class="projectDesc ">Implemented a trie-based solving algorithm for Scrabble move
+                            generation within a computer-vision powered board game
+                            assistant mobile app optimized for runtime to search the official scrabble dictionary for
+                            possible moves.
+                        </p>
+                        <a
+                            href="https://github.com/henryrobbinss/BoardSolverMobile">https://github.com/henryrobbinss/BoardSolverMobile</a>
 
-            <li class="projectCard">
-                <img src="graphics/project4.png" class="projectImg" alt="Project Four" />
-                <div class="projectInfo">
-                    <h2 class="projectTitle">Project Four</h2>
-                    <p class="projectDesc">A hackathon build, art project, or personal tool.</p>
-                </div>
-            </li>
-        </ul>
+                    </div>
+                </li>
+
+                <li class="projectCard">
+                    <img src="graphics/Project4.png" class="projectImg" alt="Project Four" />
+                    <div class="projectInfo">
+                        <h2 class="projectTitle miniHeader">AccessACity - HackRPI 2024</h2>
+                        <p class="projectDesc ">Winner of 'Ship Fast, Ship Often - Build a Payworthy MVP in a
+                            Weekend' prize, AccessACity provides users with a network of events labelled for their
+                            accessibility. Worked on map functionality and display in a 4-person team.</p>
+                        <a href="https://devpost.com/software/accessacity">https://devpost.com/software/accessacity</a>
+                    </div>
+                </li>
+
+                <li class="projectCard">
+                    <img src="graphics/Project5.png" class="projectImg" alt="Project Four" />
+                    <div class="projectInfo">
+                        <h2 class="projectTitle miniHeader">CentTrack - HackRPI 2023</h2>
+                        <p class="projectDesc ">Winner of the 'Best Mobile Hack' prize, CentTrack is a budget
+                            tracket to help users organize their spendings, earnings, and savings based on a chosen
+                            plan.
+                            Worked on front-end development and graphics in a 4-person team.</p>
+                        <a
+                            href="https://devpost.com/software/track-xnat9j">https://devpost.com/software/track-xnat9j</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 
